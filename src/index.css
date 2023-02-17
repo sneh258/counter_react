@@ -1,13 +1,53 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: cursive;
+}
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: #7c7979;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  height: 70vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  border: 2px solid white;
+}
+#b {
+   
+    width: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    height: 100%;
+
+}
+
+#b:hover {
+  background-color: white;
+  color: black;
 }
